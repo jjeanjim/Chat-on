@@ -11,8 +11,9 @@
 }
 
 body {
-    background: url("../frontend/images/bckd.jpg");
+    background: url('images/pandora.jpg');
     color: #f2f2f2;
+    background-size: cover;
 }
 .container {
     
