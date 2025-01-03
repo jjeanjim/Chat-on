@@ -82,7 +82,7 @@ const handlleLogin = (event) => {
     login.style.display = "none"
     chat.style.display ="flex"
 
-    ws = new WebSocket('ws://localhost:8080')
+    ws = new WebSocket('wss://chat-on-l6li.onrender.com')
     ws.onmessage = processMessage
   
 }
